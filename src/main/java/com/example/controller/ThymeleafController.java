@@ -30,7 +30,7 @@ public class ThymeleafController {
     public String test(ModelMap map) {
 		
 		User u = new User();
-		u.setName("superadmin");
+		u.setName("lee");
 		u.setAge(10);
 		u.setPassword("123465");
 		u.setBirthday(new Date());
