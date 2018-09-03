@@ -31,8 +31,8 @@ public class MyBatisCRUDController {
 		
 		SysUser user = new SysUser();
 		user.setId(userId);
-		user.setUsername("imooc" + new Date());
-		user.setNickname("imooc" + new Date());
+		user.setUsername("imooc");
+		user.setNickname("imooc");
 		user.setPassword("abc123");
 		user.setIsDelete(0);
 		user.setRegistTime(new Date());
