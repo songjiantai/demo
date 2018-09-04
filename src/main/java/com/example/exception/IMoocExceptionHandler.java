@@ -47,7 +47,7 @@ public class IMoocExceptionHandler {
 	/**
 	 * 
 	 * @Title: IMoocExceptionHandler.java
-	 * @Package com.imooc.exception
+	 * @Package com.example.exception
 	 * @Description: 判断是否是ajax请求
 	 * Copyright: Copyright (c) 2017
 	 * Company:FURUIBOKE.SCIENCE.AND.TECHNOLOGY

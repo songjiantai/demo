@@ -31,9 +31,9 @@ public class MyBatisCRUDController {
 		
 		SysUser user = new SysUser();
 		user.setId(userId);
-		user.setUsername("imooc");
-		user.setNickname("imooc");
-		user.setPassword("abc123");
+		user.setUsername("song"+ new Date());
+		user.setNickname("guo"+ new Date());
+		user.setPassword("jinnnnn");
 		user.setIsDelete(0);
 		user.setRegistTime(new Date());
 		
@@ -46,7 +46,7 @@ public class MyBatisCRUDController {
 	public JSONResult updateUser() {
 		
 		SysUser user = new SysUser();
-		user.setId("10011001");
+		user.setId("180904AS5Z4DCG0H");
 		user.setUsername("10011001-updated" + new Date());
 		user.setNickname("10011001-updated" + new Date());
 		user.setPassword("10011001-updated");
@@ -77,7 +77,7 @@ public class MyBatisCRUDController {
 		
 		SysUser user = new SysUser();
 		user.setUsername("imooc");
-		user.setNickname("lee");
+		user.setNickname("imooc");
 		
 		List<SysUser> userList = userService.queryUserList(user);
 		
@@ -94,7 +94,7 @@ public class MyBatisCRUDController {
 		int pageSize = 10;
 		
 		SysUser user = new SysUser();
-//		user.setNickname("lee");
+		user.setNickname("imoocTue Sep 04 15:07:23 CST 2018");
 		
 		List<SysUser> userList = userService.queryUserListPaged(user, page, pageSize);
 		

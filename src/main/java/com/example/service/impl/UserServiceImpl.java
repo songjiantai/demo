@@ -41,8 +41,8 @@ public class UserServiceImpl implements UserService {
 	@Override
 	@Transactional(propagation = Propagation.REQUIRED)
 	public void updateUser(SysUser user) {
-//		userMapper.updateByPrimaryKeySelective(user);
-		userMapper.updateByPrimaryKey(user);
+		userMapper.updateByPrimaryKeySelective(user);
+//		userMapper.updateByPrimaryKey(user);
 	}
 
 	@Override
