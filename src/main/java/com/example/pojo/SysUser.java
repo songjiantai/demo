@@ -5,6 +5,7 @@ import javax.persistence.*;
 
 @Table(name = "sys_user")
 public class SysUser {
+    @Id
     private String id;
 
     private String username;

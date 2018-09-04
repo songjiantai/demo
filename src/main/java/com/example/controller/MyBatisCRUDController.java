@@ -35,6 +35,7 @@ public class MyBatisCRUDController {
 		user.setNickname("guo"+ new Date());
 		user.setPassword("jinnnnn");
 		user.setIsDelete(0);
+		user.setAge(23);
 		user.setRegistTime(new Date());
 		
 		userService.saveUser(user);
@@ -46,9 +47,7 @@ public class MyBatisCRUDController {
 	public JSONResult updateUser() {
 		
 		SysUser user = new SysUser();
-		user.setId("180904AS5Z4DCG0H");
-		user.setUsername("10011001-updated" + new Date());
-		user.setNickname("10011001-updated" + new Date());
+		user.setId("180904C2APKP9WX4");
 		user.setPassword("10011001-updated");
 		user.setIsDelete(0);
 		user.setRegistTime(new Date());
